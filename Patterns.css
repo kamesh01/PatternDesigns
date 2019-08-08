@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 1%, rgba(255, 255, 0, 0.698) 70px, rgba(10, 228, 10, 0.698) 30px, transparent 0%), linear-gradient(120deg, black 0%, #0808c5 100%, transparent 60%), rgba(255, 255, 0, 0.698) repeating-linear-gradient(-45deg, red 40px, #4b4747 100px, transparent 2%);
+  -webkit-animation: change 3s infinite linear;
+          animation: change 3s infinite linear;
+  z-index: -1;
+}
+
+body h1 {
+  text-align: center;
+  word-spacing: 40px;
+  font-size: 5em;
+  color: #e2dada;
+  text-shadow: 2.5px 2.5px 5px black;
+}
+
+@-webkit-keyframes change {
+  0% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 1%, rgba(255, 255, 0, 0.698) 70px, rgba(10, 228, 10, 0.698) 30px, transparent 0%), linear-gradient(10deg, black 0%, #0808c5 10%, transparent 60%), rgba(255, 255, 0, 0.698) repeating-linear-gradient(-45deg, red 40px, #4b4747 100px, transparent 2%);
+  }
+  50% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 10%, rgba(179, 179, 10, 0.698), rgba(10, 228, 10, 0.698) 20%, transparent 100%), linear-gradient(10deg, black 10%, transparent 10%), rgba(16, 199, 190, 0.918) repeating-linear-gradient(-45deg, red 40px, #4b4747 100px, transparent 2%);
+  }
+  100% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 1%, rgba(255, 255, 0, 0.698) 70px, rgba(10, 228, 10, 0.698) 20%, transparent 100%), linear-gradient(-45deg, black 10%, #0808c5 20%, transparent 60%), rgba(255, 255, 0, 0.698) repeating-linear-gradient(-45deg, red 40px, #4b4747 10px, transparent 2%);
+  }
+}
+
+@keyframes change {
+  0% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 1%, rgba(255, 255, 0, 0.698) 70px, rgba(10, 228, 10, 0.698) 30px, transparent 0%), linear-gradient(10deg, black 0%, #0808c5 10%, transparent 60%), rgba(255, 255, 0, 0.698) repeating-linear-gradient(-45deg, red 40px, #4b4747 100px, transparent 2%);
+  }
+  50% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 10%, rgba(179, 179, 10, 0.698), rgba(10, 228, 10, 0.698) 20%, transparent 100%), linear-gradient(10deg, black 10%, transparent 10%), rgba(16, 199, 190, 0.918) repeating-linear-gradient(-45deg, red 40px, #4b4747 100px, transparent 2%);
+  }
+  100% {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.465) 1%, rgba(255, 255, 0, 0.698) 70px, rgba(10, 228, 10, 0.698) 20%, transparent 100%), linear-gradient(-45deg, black 10%, #0808c5 20%, transparent 60%), rgba(255, 255, 0, 0.698) repeating-linear-gradient(-45deg, red 40px, #4b4747 10px, transparent 2%);
+  }
+}
+/*# sourceMappingURL=Patterns.css.map */
